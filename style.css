@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background: #E7E7E7;
+}
+
+.wrapper {
+	max-width: 600px;
+	width: 100%;
+	margin: 30px auto;
+	padding: 0 15px;
+}
+
+.btn-wrapper {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.btn-generate {
+	cursor: pointer;
+	border: none;
+	background: #3286b7;
+	color: #fff;
+	border-radius: 0;
+	max-width: 200px;
+	width: 100%;
+	display: inline-block;
+	font-size: 18px;
+	height: 50px;
+	padding: 0;
+}
+
+.display-race {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.display-race__text {
+	display: block;
+	margin: 5px 0;
+}
+
+.display-race__text:first-child {
+	margin: 0 0 10px;
+	font-size: 24px;
+}
+
+@media screen and (max-width: 640px) {
+	.display-race {
+		font-size: 18px;
+	}
+}
