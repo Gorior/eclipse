@@ -37,11 +37,6 @@ let aliens = [
         nameFront: 'Enlightened of Lyra',
         nameFlip: 'Sentinels of Magellan'
 	},
-	// Expansion
-    {
-        nameFront: 'Terran Separatists',
-        nameFlip: 'Guardians of Magellan'
-    },
     // Expansion
     {
         nameFront: 'Pyxis Unity',
